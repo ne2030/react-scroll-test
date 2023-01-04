@@ -1,0 +1,37 @@
+{
+  "name": "infinite-test",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@fxts/core": "0.11.0",
+    "autoprefixer": "9.6.0",
+    "axios": "0.27.2",
+    "postcss": "7.0.17",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "9.4.1",
+    "react-scripts": "4.0.3",
+    "tailwindcss": "3.2.4",
+    "ua-parser-js": "1.0.32"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.20",
+    "@types/react-dom": "17.0.9",
+    "typescript": "4.4.2"
+  },
+  "scripts": {
+    "build:style": "tailwind build src/styles/index.pcss -c tailwind.js -o src/styles/tailwind-pre-build.css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

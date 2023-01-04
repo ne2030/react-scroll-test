@@ -1,2 +1,2 @@
-# react-scroll-test
+# type-2
 Created with CodeSandbox
